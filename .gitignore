@@ -5,7 +5,7 @@ secrets.yaml
 
 # Ignorar a pasta de cache/configurações do VS Code (comum para todos os projetos)
 .vscode/
-
+login.php
 # Ignorar pastas de dependências (comum em Node.js, Python, etc.)
 node_modules/
 venv/
