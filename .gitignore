@@ -1,0 +1,14 @@
+# Ignorar arquivos de configuração sensíveis
+.env
+config.json
+secrets.yaml
+
+# Ignorar a pasta de cache/configurações do VS Code (comum para todos os projetos)
+.vscode/
+
+# Ignorar pastas de dependências (comum em Node.js, Python, etc.)
+node_modules/
+venv/
+
+# Ignorar arquivos de log
+*.log
