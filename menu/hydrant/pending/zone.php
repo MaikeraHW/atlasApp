@@ -15,8 +15,9 @@ if (isset($_GET['zone'])) {
     die("Zona não informada.");
 }
 
-$mes = date('m') - 1;
-$ano = date('Y');
+$data = new DateTime('first day of last month');
+$mes  = $data->format('m');
+$ano  = $data->format('Y');
 $mesano = $mes . "/" . $ano;
 $busca = $mesano;
 $boxzone = $zone;
